@@ -50,5 +50,4 @@ git checkout nome_branch_que_será_restaurado
 git log					# Para ver o id do commit
 git reset --hard <nro do id do commit>
 
-
-errrrooooooo
+# ver: https://githowto.com/pt-BR/removing_commits_from_a_branch
