@@ -49,3 +49,6 @@ git merge novo_branch		# funde/fusiona o novo_branch para este (master)
 git checkout nome_branch_que_será_restaurado
 git log					# Para ver o id do commit
 git reset --hard <nro do id do commit>
+
+
+errrrooooooo
