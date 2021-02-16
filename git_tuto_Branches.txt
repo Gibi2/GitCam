@@ -1,7 +1,7 @@
 # cria novo branch:
 git branch novo_ramo
 
-# vai/(navega entre) para novo branch (como se fosse um cd para diretórios):
+# Navega entre/para novo branch (como se fosse um cd para diretórios):
 git checkout novo_ramo
  
 # verifica em que qual branch está atualmente (pwd):
@@ -22,5 +22,13 @@ git add .
 git commit -m '...'
 
 # navega entre os branchs....
+git checkout novo_ramo
+
+# para fazer push deste branch (SEM fazer merge!):
+# origin - tem o mesmo nome (origem). novo_branch - o nome que será assumido no gitHub:
+git push origin novo_branch
 
 # Fará um merge, ou seja, a fusão entre este branch e o master!
+git checkout novo_branch	# vai até o branch derivado.
+git merge master
+
