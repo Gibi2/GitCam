@@ -41,9 +41,9 @@ git push origin novo_branch
 
 ## Fará um merge, ou seja, a fusão entre este branch e o master!
 git checkout master 		# vai até o branch master.
-git status			# certifica-se que é o branch master!
+git status			# certifica-se que é o branch master!t
 git merge novo_branch		# funde/fusiona o novo_branch para este (master)	
-
+git push			# para fazer push.
 
 ## Voltando à um commit anterior:
 git checkout nome_branch_que_será_restaurado
